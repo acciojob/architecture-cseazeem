@@ -1,16 +1,52 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <title>Architecture Information</title>
+    <style>
+        .container {
+            width: 1100px;
+            margin: 0 auto;
+        }
+        
+        .imageContainer {
+            text-align: center;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        
+        table td {
+            padding: 10px;
+            border: 1px solid #000;
+            text-align: center;
+        }
+        
+        img {
+            max-width: 100%;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <div class="container">
+        <div class="imageContainer">
+            <img src="path/to/your/image.jpg" alt="Image">
+        </div>
+        
+        <table>
+            <tr>
+                <td><img src="path/to/your/image.jpg" alt="Image" width="200"></td>
+                <td width="600">Content for middle column</td>
+                <td><img src="path/to/your/image.jpg" alt="Image" width="200"></td>
+            </tr>
+            <tr>
+                <td><img src="path/to/your/image.jpg" alt="Image" width="200"></td>
+                <td width="600">Content for middle column</td>
+                <td><img src="path/to/your/image.jpg" alt="Image" width="200"></td>
+            </tr>
+        </table>
+    </div>
 </body>
-
 </html>
